@@ -15,4 +15,4 @@ GROUP BY
     o.order_date
 ORDER BY 
     o.order_date DESC, 
-    total_price DESC
+    total_price DESC;
