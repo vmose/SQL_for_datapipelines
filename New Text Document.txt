@@ -1,0 +1,50 @@
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    ProductID INT,
+    Quantity INT
+);
+
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(50)
+);
+
+INSERT INTO Orders (OrderID, ProductID, Quantity)
+VALUES
+    (1, 1, 10),
+    (1, 2, 5),
+    (2, 1, 8),
+    (2, 3, 15),
+    (3, 2, 20);
+
+INSERT INTO Products (ProductID, ProductName)
+VALUES
+    (1, 'ProductA'),
+    (2, 'ProductB'),
+    (3, 'ProductC');
+
+
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    ProductID INT,
+    Quantity INT
+);
+
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(50)
+);
+
+INSERT INTO Orders (OrderID, ProductID, Quantity)
+VALUES
+    (1, 1, 10),
+    (1, 2, 5),
+    (2, 1, 8),
+    (2, 3, 15),
+    (3, 2, 20);
+
+INSERT INTO Products (ProductID, ProductName)
+VALUES
+    (1, 'ProductA'),
+    (2, 'ProductB'),
+    (3, 'ProductC');
