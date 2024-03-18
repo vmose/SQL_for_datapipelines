@@ -15,4 +15,4 @@ FROM
   LEFT JOIN visitors v ON c2.click_id = v.click_id
 GROUP BY 
   c.campaign_id, 
-  c.campaign_name;
+  c.campaign_name
