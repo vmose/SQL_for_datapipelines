@@ -6,4 +6,4 @@ SELECT T.name AS Table_Name ,
 FROM   sys.objects AS T
        JOIN sys.columns AS C ON T.object_id = C.object_id
        JOIN sys.types AS P ON C.system_type_id = P.system_type_id
-WHERE  T.type_desc = 'USER_TABLE'
+WHERE  T.type_desc = 'USER_TABLE' ;
