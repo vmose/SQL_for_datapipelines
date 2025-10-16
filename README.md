@@ -19,6 +19,7 @@ These queries are designed for use with Google BigQuery:
 - **BigQuery_GA4_UserNav.sql** - Analyzes user navigation data in Google Analytics 4.
 - **BigQuery_GitHub_Repos.sql** - Extracts and analyzes data from GitHub repositories using BigQuery.
 - **BigQuery_Wiki_Revision_History.sql** - Retrieves Wikipedia revision history data from BigQuery.
+- **BigQuery_UsersSync.sql** - Synchronizing a users entity between a staging table and the main table; Target table: prod.users, source table: staging.users_updates
 
 ## Financial and Business Reports
 
